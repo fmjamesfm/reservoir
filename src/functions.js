@@ -1,4 +1,4 @@
-import { sqrt, range, add, pow, complex, multiply, dotMultiply, exp, subtract, dotDivide, pi, cos, sin, tan, i, abs, log10} from 'mathjs'
+import { sqrt, range, add, multiply, dotMultiply, exp, subtract, dotDivide, pi, cos, sin, tan, i, abs, log10} from 'mathjs'
 
 const AG = 9.81; // gravity m/s^2
 const time = range(0, 5.0, 0.001, true).toArray();
